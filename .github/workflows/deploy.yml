@@ -19,3 +19,4 @@ jobs:
     uses: mawadao/.github/.github/workflows/cloud-run.yml@main
     with:
       image: mawadao-agent-core
+      dockerfile: docker/Dockerfile
