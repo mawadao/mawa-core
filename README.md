@@ -11,7 +11,7 @@ Part of [mawaDao Agent](https://github.com/mawadao/mawadao-agent), the open-sour
 - **Agent loop:** models from many providers, tools, skills (`workspace/skills/`), memory and scheduled jobs.
 - **Channels:** Telegram, Discord, Slack, WhatsApp and more (`pkg/channels/`).
 - **Launcher and web UI** (`web/`): configure and run the gateway from a browser.
-- **Hosting:** each instance is a launcher (`:18800`) plus gateway (`:18790`). [`mawadao-agent-manager`](https://github.com/mawadao/mawadao-agent-manager) runs and manages instances for members.
+- **Hosting:** each instance is a launcher (`:18800`) plus gateway (`:18790`). [`mawadao-agent-manager`](https://github.com/mawadao/mawadao-agent/tree/main/microservices/manager) runs and manages instances for members.
 
 This is the next-generation runtime; it will replace [`mawadao-agent-gateway`](https://github.com/mawadao/mawadao-agent-gateway).
 See the [architecture](https://github.com/mawadao/mawadao-agent/blob/main/docs/architecture.md).
