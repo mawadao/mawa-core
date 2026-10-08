@@ -4,7 +4,7 @@ A lightweight agent runtime in Go, based on [PicoClaw](https://github.com/sipeed
 an agent with tools, skills, memory and chat channels in a few megabytes of RAM, so it can run
 on small, cheap hardware as well as in the cloud.
 
-Part of [mawa](https://github.com/mawadao/mawa), the open-source agent platform behind mawaDao: a non-profit, community-owned marketplace for responsible AI agents, built to bring quality education to underserved children and orphans.
+Part of [mawa](https://github.com/mawadao/mawa), the open-source agent platform behind mawaDao: a community-owned ecosystem of agentic AI for education, where developers build and list agents for free and the community shares in what they earn.
 
 ## What it does
 
