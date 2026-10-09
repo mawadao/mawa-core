@@ -1,20 +1,20 @@
-# mawa-core
+# maava-core
 
 A lightweight agent runtime in Go, based on [PicoClaw](https://github.com/sipeed/picoclaw). It runs
 an agent with tools, skills, memory and chat channels in a few megabytes of RAM, so it can run
 on small, cheap hardware as well as in the cloud.
 
-Part of [mawa](https://github.com/mawadao/mawa), the open-source agent platform behind mawaDao: a community-owned ecosystem of agentic AI for education, where developers build and list agents for free and the community shares in what they earn.
+Part of [maava](https://github.com/maavadao/maava), the open-source agent platform behind maavaDao: a community-owned ecosystem of agentic AI for education, where developers build and list agents for free and the community shares in what they earn.
 
 ## What it does
 
 - **Agent loop:** models from many providers, tools, skills (`workspace/skills/`), memory and scheduled jobs.
 - **Channels:** Telegram, Discord, Slack, WhatsApp and more (`pkg/channels/`).
 - **Launcher and web UI** (`web/`): configure and run the gateway from a browser.
-- **Hosting:** each instance is a launcher (`:18800`) plus gateway (`:18790`). [`mawa-manager`](https://github.com/mawadao/mawa/tree/main/microservices/manager) runs and manages instances for members.
+- **Hosting:** each instance is a launcher (`:18800`) plus gateway (`:18790`). [`maava-manager`](https://github.com/maavadao/maava/tree/main/microservices/manager) runs and manages instances for members.
 
-This is the next-generation runtime; it will replace [`mawa-gateway`](https://github.com/mawadao/mawa-gateway).
-See the [architecture](https://github.com/mawadao/mawa/blob/main/docs/architecture.md).
+This is the next-generation runtime; it will replace [`maava-gateway`](https://github.com/maavadao/maava-gateway).
+See the [architecture](https://github.com/maavadao/maava/blob/main/docs/architecture.md).
 
 ## Run it locally
 
@@ -45,13 +45,13 @@ git merge upstream/main
 ```
 
 PicoClaw's README, CONTRIBUTING, LICENSE and release workflows were moved or replaced here. When
-a merge conflicts on those files, keep mawaDao's version.
+a merge conflicts on those files, keep maavaDao's version.
 
 ## Contributing
 
-Read the [contributing guide](https://github.com/mawadao/mawa/blob/main/CONTRIBUTING.md) before opening a pull request.
-Fixes that aren't mawaDao-specific are better sent upstream to PicoClaw first.
-Work lands on `main`; releases are tagged `vX.Y.Z` as described in [RELEASING.md](https://github.com/mawadao/mawa/blob/main/RELEASING.md).
+Read the [contributing guide](https://github.com/maavadao/maava/blob/main/CONTRIBUTING.md) before opening a pull request.
+Fixes that aren't maavaDao-specific are better sent upstream to PicoClaw first.
+Work lands on `main`; releases are tagged `vX.Y.Z` as described in [RELEASING.md](https://github.com/maavadao/maava/blob/main/RELEASING.md).
 
 ## Licence
 

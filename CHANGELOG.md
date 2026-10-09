@@ -8,4 +8,4 @@ All notable changes to this component are recorded here. The format follows
 
 ### Added
 
-- Forked from PicoClaw `main` (bbf6893c, 2026-08-19) as part of mawa.
+- Forked from PicoClaw `main` (bbf6893c, 2026-08-19) as part of maava.
